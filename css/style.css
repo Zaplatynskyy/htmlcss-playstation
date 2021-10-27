@@ -12,6 +12,9 @@
 }
 
 /* ******MAIN****** */
+#new_game {
+    background-color: #1f1f1f;
+}
 
 /* ******FOOTER****** */
 
@@ -27,12 +30,4 @@
 .debug #jumbo_new_game {
     height: 400px;
     background-color: grey;
-}
-
-.debug main {
-    height: 2500px;
-}
-
-.bg_new_game {
-    background-color: #1f1f1f;
 }
