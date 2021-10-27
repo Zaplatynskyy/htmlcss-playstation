@@ -23,7 +23,19 @@
     background-color: green;
 }
 
-.debug #jumbotron {
-    height: 400px;
+.debug #jumbotron,
+.debug #new_game {
     background-color: grey;
+}
+
+.debug main {
+    height: 2500px;
+}
+
+.h_400 {
+    height: 400px;
+}
+
+.bg_new_game {
+    background-color: #1f1f1f;
 }
