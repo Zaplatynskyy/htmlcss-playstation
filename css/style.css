@@ -1,5 +1,9 @@
 /* ******COMMONS****** */
 
+ul {
+    list-style: none;
+}
+
 /* ******HEADER****** */
 .header_top {
     height: 50px;
@@ -25,7 +29,9 @@
 }
 
 /* ******FOOTER****** */
-
+footer {
+    background-color: #00439c;
+}
 /* ******DEBUG****** */
 
 .debug .box {
