@@ -24,16 +24,13 @@
 }
 
 .debug #jumbotron,
-.debug #new_game {
+.debug #jumbo_new_game {
+    height: 400px;
     background-color: grey;
 }
 
 .debug main {
     height: 2500px;
-}
-
-.h_400 {
-    height: 400px;
 }
 
 .bg_new_game {
