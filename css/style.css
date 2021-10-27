@@ -1,9 +1,29 @@
 /* ******COMMONS****** */
 
 /* ******HEADER****** */
+.header_top {
+    height: 50px;
+    background-color: #000000;
+}
+
+/* ******JUMBOTRON****** */
+.bottom_40 {
+    bottom: 40px
+}
 
 /* ******MAIN****** */
 
 /* ******FOOTER****** */
 
 /* ******DEBUG****** */
+
+.debug .box {
+    height: 50px;
+    max-height: 100%;
+    background-color: green;
+}
+
+.debug #jumbotron {
+    height: 400px;
+    background-color: grey;
+}
