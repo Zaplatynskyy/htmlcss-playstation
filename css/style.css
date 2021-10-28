@@ -4,6 +4,10 @@ ul {
     list-style: none;
 }
 
+.w_200 {
+    width: 200px;
+}
+
 .fs_12 {
     font-size: 12px;
 }
@@ -24,7 +28,6 @@ ul {
 }
 
 .btn_blue {
-    width: 200px;
     background-color: #2d64e6;
 }
 
