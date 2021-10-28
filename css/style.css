@@ -19,13 +19,22 @@ ul {
     background-color: #cd3d0f;
 }
 
+.btn_blue {
+    width: 200px;
+    background-color: #2d64e6;
+}
+
 .br_10 {
     border-radius: 10px;
 }
 
-.my_active {
+.my_active_b {
     padding: 1px;
     border: 2px solid #0072ce;
+}
+
+.my_active_bb {
+    border-bottom: 2px solid #0072ce;
 }
 
 
