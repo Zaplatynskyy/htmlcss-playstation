@@ -72,16 +72,24 @@ ul {
 
 /* ******JUMBOTRON****** */
 
-#jumbotron {
+#jumbotron, #jumbo_new_game {
     height: 480px;
-    background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
 }
 
-#jumbotron img {
+#jumbotron img,
+#jumbo_new_game img {
     width: 200px;
     margin-bottom: 15px;
+}
+
+#jumbotron {
+    background-image: url(../img/jumbo-bg.png);
+}
+
+#jumbo_new_game {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
 /* ******MAIN****** */
@@ -110,7 +118,7 @@ footer {
 }
 
 
-.debug #jumbo_new_game {
+/* .debug #jumbo_new_game {
     height: 400px;
     background-color: grey;
-}
+} */
