@@ -124,6 +124,15 @@ ul {
 footer {
     background-color: #00439c;
 }
+
+.img_globe {
+    width: 20px;
+    margin-right: 10px; 
+}
+
+.img_sie {
+    width: 140px;
+}
 /* ******DEBUG****** */
 
 .debug .box {
