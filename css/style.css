@@ -19,6 +19,15 @@ ul {
     background-color: #cd3d0f;
 }
 
+.br_10 {
+    border-radius: 10px;
+}
+
+.my_active {
+    padding: 1px;
+    border: 2px solid #0072ce;
+}
+
 
 
 /* ******HEADER****** */
