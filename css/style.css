@@ -28,12 +28,24 @@ ul {
     background-color: #363636;
 }
 
+.btn_dark:hover {
+    opacity: .8;
+}
+
 .btn_orange {
     background-color: #cd3d0f;
 }
 
+.btn_orange:hover {
+    box-shadow: 0 0 0 1px #000000, 0 0 0 4px #cd3d0f;
+}
+
 .btn_blue {
     background-color: #2d64e6;
+}
+
+.btn_blue:hover {
+    box-shadow: 0 0 0 1px #ffffff, 0 0 0 4px #2d64e6;
 }
 
 .btn_grey {
@@ -41,9 +53,17 @@ ul {
     background-color: #d9dadc;
 }
 
+.btn_grey:hover {
+    box-shadow: 0 0 0 1px #bebcbb, 0 0 0 4px #d9dadc;
+}
+
 .btn_white {
     color: black;
     background-color: #f5f5f5;
+}
+
+.btn_white:hover {
+    box-shadow: 0 0 0 1px #161c3b, 0 0 0 4px #f5f5f5;
 }
 
 /* proprietà bordi su elementi attivi */
@@ -89,6 +109,10 @@ ul {
     font-size: 12px;
     color: #999999;
     margin: 0 5px;
+}
+
+.nav-item:hover i.font_arrow {
+    color: #0a58ca;
 }
 
 /* ******JUMBOTRON****** */
