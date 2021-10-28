@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="debug">
+<body>
     
     <!-- inizio header -->
     <header>
@@ -21,12 +21,15 @@
         <!-- sezione header bottom con la nav bar -->
         <div class="header_bottom">
             <nav class="nav_bar navbar-expand-lg navbar-light bg-light px-2">
+                <!-- logo nav_bar -->
                 <a class="navbar-brand" href="#">
                     <img src="img/play_logo.svg" alt="playstation logo" height="60">
                 </a>
+                <!-- bottone nav_bar,al click compare la sezione dei link nascosti  -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <!-- sezione nav dei link nascosti che compaiono ad una min-width: 992px -->
                 <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item my-1">
@@ -81,7 +84,7 @@
                         </li>
                         <li class="nav-item my-1">
                             <a class="nav_link" href="#">
-                                <i class="fas fa-search fs-5"></i>
+                                <img src="img/lens.svg" alt="icon lens">
                             </a>
                         </li>
                     </ul>
@@ -92,11 +95,11 @@
     <!-- /header -->
 
     <!-- inizio sezione jumbotron -->
-    <section id="jumbotron">
-        <div class="container h-100">
+    <section id="jumbotron" class="d-flex align-items-end">
+        <div class="container py-5">
 
-            <div class="row h-100 text-white align-items-end">
-                <div class="col-12 col-lg-4 mb-4">
+            <div class="row text-white">
+                <div class="col-12 col-lg-4">
 
                     <img src="img/returnal-hero-banner-logo.png" alt="returnal logo">
 
@@ -115,11 +118,11 @@
     <!-- inizio main -->
     <main>
         <!-- sezione selezione giochi -->
-        <section id="game" class="mt-3 mb-5">
-            <div class="container">
+        <section id="game">
+            <div class="container py-3 py-sm-4">
 
-                <!-- row con giochi in evidenza -->
                 <div class="row g-3">
+                    <!-- sezione giochi in evidenza -->
                     <div class="col-6 col-sm-4 col-lg-2">
                         <img src="img/returnal-listing-thumb-01-ps5.jpg" class="img-fluid br_10 my_active_b" alt="returnal game">
                     </div>
@@ -143,6 +146,7 @@
                     <div class="col-6 col-sm-4 col-lg-2">
                         <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" class="img-fluid br_10" alt="ratchet and clank game">
                     </div>
+                    <!-- /sezione giochi in evidenza -->
                 </div>
 
             </div>
@@ -153,13 +157,13 @@
             <div class="container py-5">
 
                 <div class="row">
-                    <div class="col-12 text-center mb-4 mb-md-0">
+                    <div class="col-12 offset-sm-1 col-sm-10 text-center mb-4 mb-md-0">
                         <span class="text-primary">Play has no limits</span>
                         <h2>Ecco la PlayStation 5</h2>
                         <p class="mt-3 text-secondary">Tuffati in nuove possibilità di gioco completamente inaspettato</p>
                     </div>
 
-                    <div class="col-12 col-md-4 d-md-flex flex-md-column justify-content-md-center">
+                    <div class="col-12 col-sm-10 col-md-4 d-md-flex flex-md-column justify-content-md-center">
                         <h2>Console PlayStation 5</h2>
                         <p class="mt-3 text-secondary">Sperimenta la nuova generazione di incredibili giochi PlayStation.</p>
                         <button class="my_btn btn_blue w_200">Maggiori Informazioni</button>
@@ -171,8 +175,8 @@
                     </div>
                 </div>
 
-                <!-- row con le immagini piccole della console -->
-                <div class="row row-cols-3 row-cols-md-5 gy-3 py-3">
+                <!-- row con le immagini piccole,componenti della console -->
+                <div class="row row-cols-3 row-cols-md-5 gy-3">
                     <div class="col my_active_bb">
                         <img src="img/playstation-5-thumb.png" class="img-fluid" alt="playstation 5">
                         <span class="d-none d-md-inline">Console PS5</span>
@@ -198,16 +202,17 @@
                         <span class="d-none d-md-inline">Telecamera HD</span>
                     </div>
                 </div>
+                <!-- /componenti della console -->
 
             </div>
         </section>
 
         <!-- sezione jumbotron new game -->
-        <section id="jumbo_new_game" class="mb-3 py-lg-3">
-            <div class="container h-100">
+        <section id="jumbo_new_game" class="d-flex align-items-end py-lg-3">
+            <div class="container py-5 py-lg-4">
 
-                <div class="row h-100 text-white align-items-end">
-                    <div class="col-12 col-lg-5 mb-4">
+                <div class="row text-white">
+                    <div class="col-12 col-lg-4">
                         <img src="img/it-takes-two-logo.png" alt="it takes two logo">
 
                         <h2>Un'avventura cooperativa selvaggia ti attende</h2>
@@ -223,14 +228,15 @@
 
         <!-- sezione giochi nuove uscite -->
         <section id="new_game">
-            <div class="container">
+            <div class="container py-4">
 
-                <div class="row text-white bg_new_game gy-4 pb-5">
+                <div class="row text-white bg_new_game gy-4 pb-4">
                     <div class="col-12">
                         <h3>Nuove uscite</h3>
                         <span>Giochi incredibili per PS4 e PS5 disponibili ora</span>
                     </div>
 
+                    <!-- lista giochi nuovi -->
                     <div class="col-6 col-sm-4 col-lg-2">
                         <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" class="img-fluid br_10" alt="tony hawks game">
                         <span class="fs_12">Tony Hawk's&#8482; Pro Skater&#8482; 1 + 2 </span>
@@ -290,6 +296,7 @@
                         <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" class="img-fluid br_10" alt="crash banticoot 4 game">
                         <span class="fs_12">Crash Banticoot 4: It's About Time</span>
                     </div>
+                    <!-- /lista giochi nuovi -->
 
                 </div>
             </div>
@@ -297,9 +304,10 @@
 
         <!-- sezione console playstation 4 -->
         <section id="ps_4">
-            <div class="container py-4">
+            <div class="container py-5">
 
                 <div class="row gy-4">
+                    <!-- playstation 4 e componenti -->
                     <div class="col-12 offset-md-1 col-md-10 offset-lg-3 col-lg-6 text-center">
                         <h2>Esplora PlayStation&#174; 4</h2>
                         <p class="mt-3 text-secondary">Giochi incredibili e intrattenimento senza fine. Non c'è mai stato un momento migliore per giocare sulla tua PS4.</p>
@@ -363,12 +371,13 @@
         <section id="ps_store">
             <div class="container py-5">
 
-                <div class="row gy-3">
+                <div class="row gy-4">
                     <div class="col-12 text-center">
                         <h2>Nuovi sconti sul PlayStation Store</h2>
                         <p class="mt-3 text-secondary">Sconti pazzeschi, collezioni curate e saldi stagionali su PS5, PS4 e PS VR, tutti in un unico posto.</p>
                     </div>
 
+                    <!-- lista promozioni playstation store -->
                     <div class="col-12 col-md-4">
                         <img src="img/playstation-store-games-under-20-spotlight.jpg" class="img-fluid" alt="playstation store under 20">
                     </div>
@@ -380,6 +389,7 @@
                     <div class="col-12 col-md-4">
                         <img src="img/playstation-store-free-to-play-spotlight.png" class="img-fluid" alt="playstation store free-to-play">
                     </div>
+                    <!-- /lista promozioni -->
                 </div>
 
             </div>
@@ -423,6 +433,7 @@
                         <h3>Seguici sui social media</h3>
                     </div>
 
+                    <!-- collegamenti social disponibili -->
                     <div class="col-6 col-sm-3 offset-md-2 col-md-2">
                         <img src="img/twitter.jpg" class="img-fluid" alt="twitter logo">
                     </div>
@@ -438,6 +449,7 @@
                     <div class="col-6 col-sm-3 col-md-2">
                         <img src="img/youtube.png" class="img-fluid" alt="youtube logo">
                     </div>
+                    <!-- /social disponibili -->
                 </div>
 
             </div>
@@ -448,7 +460,9 @@
     <!-- inizio footer -->
     <footer>
         <div class="container py-5">
-            <div class="row text-white gy-4">
+
+            <div class="row fs_12 text-white gy-4">
+                <!-- col logo sony e regione selezionata -->
                 <div class="col-12 col-lg-6">
                     <img src="img/ps-footer.svg" class="img-fluid" alt="playstation logo white">
                     
@@ -460,45 +474,78 @@
                     </div>
                 </div>
 
+                <!-- col collegamenti footer -->
                 <div class="col-12 col-lg-6">
-                    <div class="row gy-2">
+                    <div class="row">
                         <div class="col-12 col-md-4">
-                            <ul>
-                                <li>Link footer n</li>
-                                <li>Link footer n</li>
-                                <li>Link footer n</li>
-                                <li>Link footer n</li>
-                                <li>Link footer n</li>
+                            <ul class="link_footer">
+                                <li>
+                                    <a href="#">Link footer n</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link footer n</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link footer n</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link footer n</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link footer n</a>
+                                </li>
                             </ul>
                         </div>
 
                         <div class="col-12 col-md-4">
-                            <ul>
-                                <li>Link footer n</li>
-                                <li>Link footer n</li>
-                                <li>Link footer n</li>
-                                <li>Link footer n</li>
-                                <li>Link footer n</li>
-                                <li>Link footer n</li>
-                                <li>Link footer n</li>
+                            <ul class="link_footer">
+                                <li>
+                                    <a href="#">Link footer n</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link footer n</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link footer n</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link footer n</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link footer n</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link footer n</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link footer n</a>
+                                </li>
                             </ul>
                         </div>
 
                         <div class="col-12 col-md-4">
-                            <ul>
-                                <li>Link footer n</li>
-                                <li>Link footer n</li>
-                                <li>Link footer n</li>
+                            <ul class="link_footer">
+                                <li>
+                                    <a href="#">Link footer n</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link footer n</a>
+                                </li>
+                                <li>
+                                    <a href="#">Link footer n</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-12">
+                <!-- col logo sony e copyright -->
+                <div class="col-12 col-lg-6">
                     <img src="img/sie-logo.svg" class="img_sie" alt="sie logo">
-                    <p>Website &#169;2021 Sony Interactive Entertainment Europe Limited. Tutti i contenuti, i nomi dei giochi, nomi commerciali e/o di abbigliamento, marchi registrati, grafica e immagini associati sono marchi registrati e/o materiale protetto da copyright dei rispettivi proprietari. Tutti i diritti riservati. <u>Maggiori info</u></p>
+                    <p>Website &#169;2021 Sony Interactive Entertainment Europe Limited. Tutti i contenuti, i nomi dei giochi, nomi commerciali e/o di abbigliamento, marchi registrati, grafica e immagini associati sono marchi registrati e/o materiale protetto da copyright dei rispettivi proprietari. Tutti i diritti riservati. <a href="#" class="text-white">Maggiori info</a></p>
                 </div>
             </div>
+
         </div>
     </footer>
     <!-- /footer -->
