@@ -4,6 +4,10 @@ ul {
     list-style: none;
 }
 
+.fs_12 {
+    font-size: 12px;
+}
+
 .my_btn {
     color: white;
     border: none;
@@ -36,8 +40,6 @@ ul {
 .my_active_bb {
     border-bottom: 2px solid #0072ce;
 }
-
-
 
 /* ******HEADER****** */
 .header_top {
