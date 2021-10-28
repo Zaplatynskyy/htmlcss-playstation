@@ -31,6 +31,11 @@ ul {
     background-color: #2d64e6;
 }
 
+.btn_grey {
+    color: #2d64e6;
+    background-color: #d9dadc;
+}
+
 .br_10 {
     border-radius: 10px;
 }
