@@ -187,7 +187,7 @@ ul {
 
 #new_game img:hover {
     cursor: pointer;
-    transform: scale(1.05);
+    transform: scale(1.04);
 }
 
 /* sezione playstation plus */
@@ -195,9 +195,48 @@ ul {
     background-color: #bebcbb;
 }
 
+/* sezione playstation store */
+#ps_store img {
+    transition: .1s;
+}
+
+#ps_store img:hover {
+    cursor: pointer;
+    border-radius: 5px;
+    transform: scale(1.03);
+}
+
 /* sezione playstation now */
 #ps_now {
     background-color: #161c3b;
+}
+
+/* sezione social media */
+
+#social_media img {
+    transition: .2s;
+}
+
+#social_media img:hover {
+    cursor: pointer;
+    border-radius: 5px;
+    transform: scale(1.02);
+}
+
+#social_media #twit:hover {
+    box-shadow: 0 0 5px 0 #1da1f3;
+}
+
+#social_media #fcb:hover {
+    box-shadow: 0 0 5px 0 #1878f3;
+}
+
+#social_media #insta:hover {
+    box-shadow: 0 0 5px 0 #d94263;
+}
+
+#social_media #tube:hover {
+    box-shadow: 0 0 5px 0 #c5312c;
 }
 
 /* ******FOOTER****** */
