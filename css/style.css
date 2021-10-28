@@ -181,6 +181,15 @@ ul {
     background-color: #1f1f1f;
 }
 
+#new_game img {
+    transition: .1s;
+}
+
+#new_game img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
 /* sezione playstation plus */
 #ps_plus {
     background-color: #bebcbb;
