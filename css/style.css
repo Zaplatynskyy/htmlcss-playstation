@@ -110,6 +110,57 @@ ul {
     color: #0a58ca;
 }
 
+.drop_down:hover a.nav_link {
+    color: #0a58ca;
+}
+
+/* sezione dropdown della nav_bar */
+.drop_container {
+    width: 100%;
+    background-color: #f8f9fa;
+    position: absolute;
+    top: 70px;
+    left: 0;
+}
+
+.drop_container .drop_top {
+    height: 120px;
+}
+
+.drop_container .drop_bottom {
+    height: 80px;
+    border-top: 1px solid #cccccc;
+}
+
+.drop_down {
+    height: 70px;
+    line-height: 70px;
+}
+
+.drop_down i.fa-chevron-up{
+    position: relative;
+    display: none;
+}
+
+.drop_down:hover i.fa-chevron-up {
+    display: inline-block;
+}
+
+.drop_down:hover i.fa-chevron-down {
+    display: none;
+}
+
+.my_display {
+    display: none;
+}
+
+.drop_down:hover .my_display {
+    display: block;
+}
+
+
+
+
 /* ******JUMBOTRON****** */
 
 #jumbotron, #jumbo_new_game {
@@ -274,4 +325,20 @@ footer p a:hover {
         width: 200px;
         margin-bottom: 15px;
     }
+}
+
+/* ******DEBUG****** */
+
+.debug .box {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    margin: 5px;
+}
+
+.debug .b_box {
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    margin: 0 5px;
 }
