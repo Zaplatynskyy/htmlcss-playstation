@@ -91,7 +91,6 @@ header {
 .nav_bar {
     position: relative;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -129,12 +128,61 @@ header {
 /* sezione jumbotron principale */
 #jumbotron img{
     width: 250px;
-    margin-bottom: 15px;
+    margin-bottom: 15px; 
+    position: relative;
+    animation-name: img_animation;
+    animation-duration: 3s;
+}
+
+@keyframes img_animation {
+    0% {
+        top: 20px;
+        opacity: 0;
+    }
+    60% {
+        opacity: 1;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+.content_title_jumbo {
+    position: relative;
+    animation-name: title_animation;
+    animation-delay: .5s;
+    animation-duration: 3.5s;
+}
+
+@keyframes title_animation {
+    0% {
+        opacity: 0;
+        top: 20px;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        
+        top: 0;
+    }
 }
 
 #jumbotron {
     background-image: url(../img/jumbo-bg.png);
+    animation-name: bgi_animation;
+    animation-duration: 3s;
 }
+
+@keyframes bgi_animation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 
 /* sezione jumbotron nella sezione new_game */
 #jumbo_new_game img {
