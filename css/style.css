@@ -81,6 +81,13 @@ ul {
     width: 80px;
 }
 
+header {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.48);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
 .nav_bar {
     position: relative;
     display: flex;
