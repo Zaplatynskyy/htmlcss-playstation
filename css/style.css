@@ -96,9 +96,11 @@ header {
 }
 
 .nav_link {
-    font-weight: 600;
-    color: black;
+    width: 30%;
+    font-size: 14px;
+    font-weight: bold;
     text-decoration: none;
+    color: black;
     margin: .5rem;
 }
 
@@ -116,6 +118,91 @@ header {
     color: #0a58ca;
 }
 
+.drop_down:hover a.nav_link {
+    color: #0a58ca;
+}
+
+/* sezione dropdown della nav_bar */
+.drop_down {
+    width: 30%;
+}
+
+.drop_container {
+    width: 70%;
+    background-color: #f8f9fa;
+    padding: 10px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    bottom: 0;
+}
+
+.drop_container .drop_top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.drop_top .cont_img {
+    width: calc(50% - 10px);
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont_img:hover {
+    box-shadow: 1px 1px 5px #adadad;
+}
+
+.cont_img img {
+    width: 50px;
+}
+
+.cont_img span {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.drop_container .drop_bottom {
+    width: 100%;
+    border-top: 1px solid #cccccc;
+}
+
+.drop_bottom span {
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 2px 0;
+    display: block;
+}
+
+.drop_bottom span:hover {
+    color: #0070d1;
+}
+
+.drop_down i.fa-chevron-up{
+    position: relative;
+    display: none;
+}
+
+.drop_down:hover i.fa-chevron-up {
+    display: inline-block;
+}
+
+.drop_down:hover i.fa-chevron-down {
+    display: none;
+}
+
+.drop_down:hover .drop_container {
+    display: flex;
+}
 /* ******JUMBOTRON****** */
 
 #jumbotron, #jumbo_new_game {
@@ -329,4 +416,37 @@ footer p a:hover {
         width: 200px;
         margin-bottom: 15px;
     }
+
+    .drop_down {
+        width: inherit;
+        height: 70px;
+        line-height: 70px;
+    }
+
+    .drop_container {
+        width: 100%;
+        padding: 0;
+        bottom: inherit;        
+    }
+
+    .drop_top .cont_img {
+        width: 140px;
+        height: 120px;
+        margin: 10px;
+        padding: 15px 20px;
+    }
+
+    .cont_img span {
+        line-height: initial;
+    }
+
+    .drop_bottom {
+        text-align: center;
+    }
+
+    .drop_bottom span {
+        display: inline;
+        margin: 0 20px;
+    }
 }
+

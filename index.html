@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body class="debug">
     
     <!-- sezione top della pagina contenente il logo sony -->
     <div class="header_top d-flex justify-content-end align-items-center px-2">
@@ -27,59 +27,234 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <!-- sezione nav dei link nascosti che compaiono ad una min-width: 992px -->
-            <div class="collapse navbar-collapse justify-content-between py-2 py-lg-0" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item my-1">
+                    <li class="nav-item my-1 drop_down">
                         <a class="nav_link" href="#">
                             Giochi
-                            <i class="fas fa-chevron-down font_arrow"></i>
+                            <span class="cont_arrow">
+                                <i class="fas fa-chevron-down font_arrow"></i>
+                                <i class="fas fa-chevron-up font_arrow"></i>
+                            </span>
                         </a>
+
+                        <!-- contenitore dropdown -->
+                        <div class="drop_container">
+                            <!-- parte superiore del dropdown -->
+                            <div class="drop_top">
+                                <div class="cont_img">
+                                    <img src="img/play-menu-ico.png" alt="">
+                                    <span>PS5</span>
+                                </div>
+                                <div class="cont_img">
+                                    <img src="img/play-menu-ico.png" alt="">
+                                    <span>PS4</span>
+                                </div>
+                                <div class="cont_img">
+                                    <img src="img/play-menu-ico.png" alt="">
+                                    <span>PS VR</span>
+                                </div>
+                                <div class="cont_img">
+                                    <img src="img/play-menu-ico.png" alt="">
+                                    <span>PS Plus</span>
+                                </div>
+                                <div class="cont_img">
+                                    <img src="img/play-menu-ico.png" alt="">
+                                    <span>PS Now</span>
+                                </div>
+                                <div class="cont_img">
+                                    <img src="img/play-menu-ico.png" alt="">
+                                    <span>Compra Giochi</span>
+                                </div>
+                            </div>
+                            <!-- parte inferiore del dropdown -->
+                            <div class="drop_bottom">
+                                <span>Playstation Indies</span>
+                                <span>Promozioni e offerte</span>
+                                <span>Playstation Hits</span>
+                                <span>PlayLink</span>
+                            </div>
+                        </div>
                     </li>
-                    <li class="nav-item my-1">
+                    <li class="nav-item my-1 drop_down">
                         <a class="nav_link" href="#">
                             Hardware
-                            <i class="fas fa-chevron-down font_arrow"></i>
+                            <span class="cont_arrow">
+                                <i class="fas fa-chevron-down font_arrow"></i>
+                                <i class="fas fa-chevron-up font_arrow"></i>
+                            </span>
                         </a>
+
+                        <!-- contenitore dropdown -->
+                        <div class="drop_container">
+                            <!-- parte superiore del dropdown -->
+                            <div class="drop_top">
+                                <div class="cont_img">
+                                    <img src="img/play-menu-ico.png" alt="">
+                                    <span>PS5</span>
+                                </div>
+                                <div class="cont_img">
+                                    <img src="img/play-menu-ico.png" alt="">
+                                    <span>PS4</span>
+                                </div>
+                                <div class="cont_img">
+                                    <img src="img/play-menu-ico.png" alt="">
+                                    <span>PS4 Pro</span>
+                                </div>
+                                <div class="cont_img">
+                                    <img src="img/play-menu-ico.png" alt="">
+                                    <span>PS VR</span>
+                                </div>
+                            </div>
+                            <!-- parte inferiore del dropdown -->
+                            <div class="drop_bottom">
+                                <span>Controller wireless DUALSHOCK 4</span>
+                                <span>Controller di movimento PlayStation Move</span>
+                                <span>Gold Wireless Headset</span>
+                            </div>
+                        </div>
                     </li>
-                    <li class="nav-item my-1">
+                    <li class="nav-item my-1 drop_down">
                         <a class="nav_link" href="#">
                             Servizi
-                            <i class="fas fa-chevron-down font_arrow"></i>
+                            <span class="cont_arrow">
+                                <i class="fas fa-chevron-down font_arrow"></i>
+                                <i class="fas fa-chevron-up font_arrow"></i>
+                            </span>
                         </a>
+
+                        <!-- contenitore dropdown -->
+                        <div class="drop_container">
+                            <!-- parte superiore del dropdown -->
+                            <div class="drop_top">
+                                <div class="cont_img">
+                                    <img src="img/play-menu-ico.png" alt="">
+                                    <span>PS Plus</span>
+                                </div>
+                                <div class="cont_img">
+                                    <img src="img/play-menu-ico.png" alt="">
+                                    <span>PS Now</span>
+                                </div>
+                            </div>
+                        </div>
                     </li>
-                    <li class="nav-item my-1">
+                    <li class="nav-item my-1 drop_down">
                         <a class="nav_link" href="#">
                             Novità
-                            <i class="fas fa-chevron-down font_arrow"></i>
+                            <span class="cont_arrow">
+                                <i class="fas fa-chevron-down font_arrow"></i>
+                                <i class="fas fa-chevron-up font_arrow"></i>
+                            </span>
                         </a>
+
+                        <!-- contenitore dropdown -->
+                        <div class="drop_container">
+                            <!-- parte superiore del dropdown -->
+                            <div class="drop_top">
+                                <div class="cont_img">
+                                    <img src="img/play-menu-ico.png" alt="">
+                                    <span>PS Blog</span>
+                                </div>
+                                <div class="cont_img">
+                                    <img src="img/play-menu-ico.png" alt="">
+                                    <span>Questo mese su PlayStation</span>
+                                </div>
+                            </div>
+                            <!-- parte inferiore del dropdown -->
+                            <div class="drop_bottom">
+                                <span>Gamer Board</span>
+                            </div>
+                        </div>
                     </li>
-                    <li class="nav-item my-1">
+                    <li class="nav-item my-1 drop_down">
                         <a class="nav_link" href="#">
                             Fai acquisti
-                            <i class="fas fa-chevron-down font_arrow"></i>
+                            <span class="cont_arrow">
+                                <i class="fas fa-chevron-down font_arrow"></i>
+                                <i class="fas fa-chevron-up font_arrow"></i>
+                            </span>
                         </a>
+
+                        <!-- contenitore dropdown -->
+                        <div class="drop_container">
+                            <!-- parte superiore del dropdown -->
+                            <div class="drop_top">
+                                <div class="cont_img">
+                                    <img src="img/play-menu-ico.png" alt="">
+                                    <span>Digital Games and Services</span>
+                                </div>
+                                <div class="cont_img">
+                                    <img src="img/play-menu-ico.png" alt="">
+                                    <span>PS Gear</span>
+                                </div>
+                            </div>
+                            <!-- parte inferiore del dropdown -->
+                            <div class="drop_bottom">
+                                <span>Acquista giochi per PS5</span>
+                                <span>Acquista giochi per PS4</span>
+                                <span>Acquista PlayStation Plus</span>
+                                <span>Acquista PS4</span>
+                                <span>Acquista PS VR</span>
+                            </div>
+                        </div>
                     </li>
-                    <li class="nav-item my-1">
+                    <li class="nav-item my-1 drop_down">
                         <a class="nav_link" href="#">
                             Supporto
-                            <i class="fas fa-chevron-down font_arrow"></i>
+                            <span class="cont_arrow">
+                                <i class="fas fa-chevron-down font_arrow"></i>
+                                <i class="fas fa-chevron-up font_arrow"></i>
+                            </span>
                         </a>
+
+                        <!-- contenitore dropdown -->
+                        <div class="drop_container">
+                            <!-- parte superiore del dropdown -->
+                            <div class="drop_top">
+                                <div class="cont_img">
+                                    <img src="img/play-menu-ico.png" alt="">
+                                    <span>Supporto</span>
+                                </div>
+                                <div class="cont_img">
+                                    <img src="img/play-menu-ico.png" alt="">
+                                    <span>Stato del PSN</span>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                 </ul>
 
                 <ul class="navbar-nav align-items-lg-center">
-                    <li class="nav-item my-1">
+                    <li class="nav-item my-1 drop_down">
                         <a class="nav_link" href="#">
                             My PLayStation
-                            <i class="fas fa-chevron-down font_arrow"></i>
+                            <span class="cont_arrow">
+                                <i class="fas fa-chevron-down font_arrow"></i>
+                                <i class="fas fa-chevron-up font_arrow"></i>
+                            </span>
                         </a>
+
+                        <!-- contenitore dropdown -->
+                        <div class="drop_container">
+                            <!-- parte superiore del dropdown -->
+                            <div class="drop_top">
+                                <div class="cont_img">
+                                    <img src="img/play-menu-ico.png" alt="">
+                                    <span>I miei giochi</span>
+                                </div>
+                                <div class="cont_img">
+                                    <img src="img/play-menu-ico.png" alt="">
+                                    <span>Abbonamenti attivi</span>
+                                </div>
+                            </div>
+                        </div>
                     </li>
-                    <li class="nav-item my-1">
-                        <a class="nav_link" href="#">
-                            <button class="my_btn btn_dark">Accedi</button>
-                        </a>
+
+                    <li class="nav-item mt-4 mb-3">
+                        <button class="my_btn btn_dark">Accedi</button>
                     </li>
-                    <li class="nav-item my-1">
+
+                    <li class="nav-item my-3">
                         <a class="nav_link" href="#">
                             <img src="img/lens.svg" alt="icon lens">
                         </a>
